@@ -2,7 +2,9 @@ import { Link } from 'react-router-dom';
 
 const Home = () => (
   <>
-    <h1>Home Page</h1>
+    <ul className="home-header">
+      <li>Most Polluted</li>
+    </ul>
     <Link to="City">City Page</Link>
   </>
 );
