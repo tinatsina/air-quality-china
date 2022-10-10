@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-const City = () => (
+const Country = () => (
   <>
     <ul className="city-header">
       <li>
@@ -15,4 +15,4 @@ const City = () => (
   </>
 );
 
-export default City;
+export default Country;
