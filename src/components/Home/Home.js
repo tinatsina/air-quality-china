@@ -8,10 +8,10 @@ import { fetchCityRating } from '../../redux/actions/aqiActions';
 
 const Home = () => {
   const dispatch = useDispatch();
-  const state = useSelector((state) => state.aqiReducer);
+  const state = useSelector((state) => state.cityReducer);
 
   useEffect(() => {
-    if (state.length === 0) dispatch(fetchCityRating(cityList));
+    dispatch(fetchCityRating(cityList));
   }, [dispatch, state.length]);
 
   return (

@@ -1,4 +1,5 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
+import { v4 as uuidv4 } from 'uuid';
 
 export const FETCH_AQI_DATA = 'redux/actions/aqiActions/FETCH_AQI_DATA';
 export const FETCH_CITY_DATA = 'redux/actions/aqiActions/FETCH_CITY_DATA';
@@ -12,13 +13,15 @@ export const fetchCityRating = createAsyncThunk(FETCH_CITY_DATA, async (city) =>
     const data = response.json();
     return data;
   });
-  const wholeAPI = Promise.all(promises);
-  const payload = wholeAPI.data.map((e) => ({
-    id: e.idx,
-    aqi: e.aqi,
-    // time: e.time.s,
-  }));
-  return payload;
+  const data = Promise.all(promises).then((payload) => {
+    const result = payload.map((e) => ({
+      id: uuidv4(),
+      aqi: e.data.aqi,
+      city: e.data.city.name.split(' ')[0],
+    }));
+    return result;
+  });
+  return data;
 });
 
 // Fetch the AQI data rating for just one city
