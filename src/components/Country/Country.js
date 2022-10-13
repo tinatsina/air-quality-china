@@ -4,7 +4,6 @@ import { useSelector } from 'react-redux';
 const Country = () => {
   // Get the state data for the webpage we have just loaded
   const e = useSelector((state) => state.aqiReducer);
-  console.log(e);
   return (
     <>
       <h1>

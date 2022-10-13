@@ -35,7 +35,7 @@ const HomeList = ({ aqi, city }) => {
     <li className="home-card">
       <p>{city}</p>
       <p>{aqi}</p>
-      <Link onClick={() => onClickHandler(city)} to="/Country">{city}</Link>
+      <Link onClick={() => onClickHandler(city)} to={`${city}`}>{city}</Link>
     </li>
   );
 };
