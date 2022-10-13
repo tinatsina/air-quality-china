@@ -26,7 +26,24 @@ export const fetchCityRating = createAsyncThunk(FETCH_CITY_DATA, async (city) =>
 
 // Fetch the AQI data rating for just one city
 export const fetchAQIData = createAsyncThunk(FETCH_AQI_DATA, async (city) => {
-  const response = await fetch(BASE_URL + city);
-  const payload = response.json();
+  const response = await fetch(BASE_URL + city + API_KEY);
+  const payload = response.json().then((e) => {
+    // The AQI data that we need to insert into state
+    const payload = {
+      aqi: e.data.aqi,
+      city: e.data.city.name,
+      co: e.data.iaqi.co.v,
+      h: e.data.iaqi.h.v,
+      no2: e.data.iaqi.no2.v,
+      o3: e.data.iaqi.o3.v,
+      p: e.data.iaqi.p.v,
+      pm10: e.data.iaqi.pm10.v,
+      pm25: e.data.iaqi.pm25.v,
+      so2: e.data.iaqi.so2.v,
+      t: e.data.iaqi.t.v,
+      w: e.data.iaqi.w.v,
+    };
+    return payload;
+  });
   return payload;
 });
