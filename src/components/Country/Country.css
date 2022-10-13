@@ -1,0 +1,15 @@
+.aqi-navbar > div > a > svg {
+  color: #fff;
+  width: 1.5em;
+  height: 1.5em;
+  margin-top: 0.65em;
+  margin-left: 1em;
+}
+
+.aqi-navbar > p {
+  margin-top: 0.5em;
+}
+
+.aqi-navbar {
+  display: flex;
+}

@@ -1,17 +1,25 @@
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import './Country.css';
+import { IoChevronBackOutline } from 'react-icons/io5';
 
 const Country = () => {
   // Get the state data for the webpage we have just loaded
   const e = useSelector((state) => state.aqiReducer);
   return (
     <>
-      <h1>
-        Hello
-      </h1>
-      <h2>AQI Data</h2>
-      <Link to="/">Home Page</Link>
+      <nav className="aqi-navbar">
+        <div>
+          <Link to="/">
+            <IoChevronBackOutline />
+          </Link>
+        </div>
+        <p>AQI DATA</p>
+      </nav>
+      <div className="aqi-big-display">
+        <h2>{e.city}</h2>
+        <h3>{e.aqi}</h3>
+      </div>
       <ul className="city-header">
         <li>{e.co}</li>
         <li>{e.h}</li>
