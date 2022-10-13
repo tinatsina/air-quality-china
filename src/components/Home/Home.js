@@ -2,10 +2,12 @@ import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import './Home.css';
+import { BsArrowRightCircle } from 'react-icons/bs';
 import PropTypes from 'prop-types';
 import cityList from '../data/cityNames';
 import { fetchCityRating, fetchAQIData } from '../../redux/actions/aqiActions';
-// import imageList from '../img/imgConfig';
+import imageList from '../img/imgConfig';
+import chinaMap from '../img/China.svg';
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -16,11 +18,23 @@ const Home = () => {
   }, [dispatch, state.length]);
 
   return (
-    <ul className="home-container">
-      {state.map((city) => (
-        <HomeList key={city.id} aqi={city.aqi} city={city.city} />
-      ))}
-    </ul>
+    <>
+      <nav>
+        <p>Highest Polluters</p>
+      </nav>
+      <div className="china-display">
+        <img src={chinaMap} alt="Map of China" />
+        <h3>CHINA CITIES</h3>
+      </div>
+      <div className="night-blue-list">
+        <p>STATS BY CITIES</p>
+      </div>
+      <ul className="home-container">
+        {state.map((city) => (
+          <HomeList key={city.id} aqi={city.aqi} city={city.city} />
+        ))}
+      </ul>
+    </>
   );
 };
 
@@ -31,11 +45,17 @@ const HomeList = ({ aqi, city }) => {
   const onClickHandler = (city) => {
     dispatch(fetchAQIData(city));
   };
+  // List items to be displayed at the finale
   return (
     <li className="home-card">
-      <p>{city}</p>
-      <p>{aqi}</p>
-      <Link onClick={() => onClickHandler(city)} to={`${city}`}>{city}</Link>
+      <div className="image-arrow-conatiner">
+        <img src={imageList[0].img} alt="city mapping" />
+        <Link onClick={() => onClickHandler(city)} to={`${city}`}>
+          <BsArrowRightCircle />
+        </Link>
+      </div>
+      <p className="city-name">{city}</p>
+      <p className="city-aqi">{aqi}</p>
     </li>
   );
 };

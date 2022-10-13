@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import './Country.css';
 
 const Country = () => {
   // Get the state data for the webpage we have just loaded
