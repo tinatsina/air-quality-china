@@ -34,6 +34,12 @@ const Home = () => {
           <HomeList key={city.id} aqi={city.aqi} city={city.city} />
         ))}
       </ul>
+      <footer>
+        <p>
+          Original design idea by
+          <a href="https://www.behance.net/sakwadesignstudio"> Nelson Sakwa on Behance.</a>
+        </p>
+      </footer>
     </>
   );
 };

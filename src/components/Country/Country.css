@@ -1,3 +1,11 @@
+:root {
+  --dark-blue: #4369b2;
+  --light-blue: #5485df;
+  --night-blue: #35548c;
+  --font-paint: #fff;
+  --alt-blue: #3f63a6;
+}
+
 .aqi-navbar > div > a > svg {
   color: #fff;
   width: 1.5em;
@@ -12,4 +20,46 @@
 
 .aqi-navbar {
   display: flex;
+}
+
+.aqi-big-display {
+  display: flex;
+  flex-direction: row-reverse;
+  color: var(--font-paint);
+}
+
+.aqi-big-display > div {
+  width: 65%;
+  text-align: right;
+  margin-right: 5%;
+}
+
+.aqi-big-display > img {
+  width: 30%;
+  margin: 5%;
+  opacity: 0.33;
+}
+
+.city-header {
+  padding: 0;
+  margin: 0;
+  color: var(--font-paint);
+}
+
+.city-header > li {
+  display: flex;
+  background-color: var(--light-blue);
+}
+
+.city-header > li:nth-child(even) {
+  background-color: var(--dark-blue);
+}
+
+.city-header > li > p:first-child {
+  margin-right: auto;
+  margin-left: 5%;
+}
+
+.city-header > li > p:last-child {
+  margin-right: 5%;
 }
