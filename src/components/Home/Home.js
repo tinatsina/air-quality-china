@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import './Home.css';
@@ -12,10 +12,17 @@ import chinaMap from '../img/China.svg';
 const Home = () => {
   const dispatch = useDispatch();
   const state = useSelector((state) => state.cityReducer);
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (state.length === 0) dispatch(fetchCityRating(cityList));
   }, [dispatch, state.length]);
+
+  const citySearchHandler = (e) => {
+    e.preventDefault();
+    dispatch(fetchAQIData(e.target[0].value));
+    navigate('search');
+  };
 
   return (
     <>
@@ -26,6 +33,10 @@ const Home = () => {
         <img src={chinaMap} alt="Map of China" />
         <h3>CHINA CITIES</h3>
       </div>
+      <form className="china-search-box" onSubmit={(e) => citySearchHandler(e)}>
+        <input type="text" placeholder="Enter city name" required />
+        <button type="submit"> SEARCH </button>
+      </form>
       <div className="night-blue-list">
         <p>STATS BY CITIES</p>
       </div>
@@ -44,7 +55,7 @@ const Home = () => {
   );
 };
 
-const HomeList = ({ aqi, city }) => {
+export const HomeList = ({ aqi, city }) => {
   // Use dispatch Hook initiation
   const dispatch = useDispatch();
   // Function to go to new page

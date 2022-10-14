@@ -72,7 +72,7 @@ const Country = () => {
       <footer>
         <p>
           Original design idea by
-          <a href="https://www.behance.net/sakwadesignstudio"> Nelson Sakwa on Behance.</a>
+          {/* <a href="https://www.behance.net/sakwadesignstudio"> Nelson Sakwa on Behance.</a> */}
         </p>
       </footer>
     </>

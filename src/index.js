@@ -18,6 +18,7 @@ root.render(
           {cityList.map((city) => (
             <Route key={uuidv4()} path={city.name} element={<Country />} />
           ))}
+          <Route path="search" element={<Country />} />
         </Routes>
       </BrowserRouter>
     </Provider>

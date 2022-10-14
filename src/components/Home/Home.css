@@ -48,6 +48,25 @@ footer > p > a {
   font-weight: 300;
 }
 
+.china-search-box {
+  background-color: var(--light-blue);
+  display: flex;
+}
+
+.china-search-box > input {
+  border-radius: 1em;
+  border: none;
+  width: 60%;
+  margin: 0 5%;
+}
+
+.china-search-box > button {
+  width: 25%;
+  height: 3em;
+  border-radius: 20%;
+  border: none;
+}
+
 .night-blue-list {
   background-color: var(--night-blue);
   color: var(--font-paint);
