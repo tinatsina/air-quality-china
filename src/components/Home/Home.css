@@ -1,0 +1,136 @@
+:root {
+  --dark-blue: #4369b2;
+  --light-blue: #5485df;
+  --night-blue: #35548c;
+  --font-paint: #fff;
+  --alt-blue: #3f63a6;
+}
+
+body {
+  margin: auto;
+  width: 60%;
+}
+
+nav {
+  background-color: var(--dark-blue);
+  color: var(--font-paint);
+}
+
+nav > p {
+  margin: auto;
+  line-height: 2em;
+  height: 3em;
+  text-align: center;
+}
+
+footer > p {
+  margin: 0;
+  text-align: center;
+}
+
+footer > p > a {
+  color: var(--font-paint);
+}
+
+.china-display {
+  display: flex;
+  background-color: var(--light-blue);
+  color: var(--font-paint);
+}
+
+.china-display > img {
+  width: 75%;
+  opacity: 0.25;
+}
+
+.china-display > p {
+  font-size: larger;
+  font-weight: 300;
+}
+
+.night-blue-list {
+  background-color: var(--night-blue);
+  color: var(--font-paint);
+}
+
+.night-blue-list > p {
+  margin: 0;
+}
+
+.home-container {
+  padding: 0;
+  margin: 0;
+  background-color: var(--dark-blue);
+  color: var(--font-paint);
+}
+
+.home-card {
+  display: inline-block;
+  width: 50%;
+  background-color: var(--night-blue);
+}
+
+.home-card:nth-child(1),
+.home-card:nth-child(4),
+.home-card:nth-child(5),
+.home-card:nth-child(8),
+.home-card:nth-child(9) {
+  background-color: var(--light-blue);
+}
+
+.image-arrow-conatiner {
+  display: flex;
+}
+
+.image-arrow-conatiner > img {
+  width: 60%;
+  margin: 10%;
+  opacity: 0.25;
+}
+
+.image-arrow-conatiner > a > svg {
+  width: 1.5em;
+  height: 1.5em;
+  color: var(--font-paint);
+}
+
+.image-arrow-conatiner > a {
+  padding-top: 1em;
+}
+
+.city-name {
+  font-size: x-large;
+  font-weight: 400;
+  margin: 0 0.25em;
+  text-align: end;
+}
+
+.city-aqi {
+  font-size: larger;
+  font-weight: 300;
+  margin: 0 0.25em;
+  text-align: end;
+}
+
+.aqi-big-display {
+  background-color: var(--light-blue);
+  margin: 0;
+}
+
+.aqi-big-display > h2 {
+  margin-bottom: 0;
+  line-height: 3.5em;
+  margin-top: 0;
+}
+
+.aqi-big-display > h3 {
+  font-size: xx-large;
+  margin: 0;
+}
+
+footer {
+  background-color: var(--night-blue);
+  color: var(--font-paint);
+  height: 5em;
+  line-height: 5em;
+}
