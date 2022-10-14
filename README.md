@@ -18,7 +18,7 @@
 
 ![The image](src/components/img/0001.png)
 
-[Math Magicians Link](https://mathematical-maigicians-online.netlify.app/)
+[China Air Quality Link](https://illustrious-gnome-9b4dcd.netlify.app/)
 
 ## Getting Started
 
