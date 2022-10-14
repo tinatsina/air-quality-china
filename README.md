@@ -12,6 +12,10 @@
 - Markdown
 - React
 
+## Video
+
+[Video Link](https://www.loom.com/share/98139a8a2d314c0cb02b92cb232fbeae)
+
 ## Live Deployment
 
 > The website is built using React and deployed using Netlify
