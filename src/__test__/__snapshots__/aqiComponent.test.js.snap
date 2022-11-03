@@ -1,0 +1,636 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Snapshot Test City Page List 1`] = `
+Array [
+  <li
+    className="home-card"
+  >
+    <div
+      className="image-arrow-conatiner"
+    >
+      <img
+        alt="city mapping"
+        src="Asset 1.svg"
+      />
+      <a
+        href="/Beijing"
+        onClick={[Function]}
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+            fillRule="evenodd"
+          />
+        </svg>
+      </a>
+    </div>
+    <p
+      className="city-name"
+    >
+      Beijing
+    </p>
+    <p
+      className="city-aqi"
+    >
+      182
+    </p>
+  </li>,
+  <li
+    className="home-card"
+  >
+    <div
+      className="image-arrow-conatiner"
+    >
+      <img
+        alt="city mapping"
+        src="Asset 1.svg"
+      />
+      <a
+        href="/Nanjing"
+        onClick={[Function]}
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+            fillRule="evenodd"
+          />
+        </svg>
+      </a>
+    </div>
+    <p
+      className="city-name"
+    >
+      Nanjing
+    </p>
+    <p
+      className="city-aqi"
+    >
+      52
+    </p>
+  </li>,
+  <li
+    className="home-card"
+  >
+    <div
+      className="image-arrow-conatiner"
+    >
+      <img
+        alt="city mapping"
+        src="Asset 1.svg"
+      />
+      <a
+        href="/Shanghai"
+        onClick={[Function]}
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+            fillRule="evenodd"
+          />
+        </svg>
+      </a>
+    </div>
+    <p
+      className="city-name"
+    >
+      Shanghai
+    </p>
+    <p
+      className="city-aqi"
+    >
+      72
+    </p>
+  </li>,
+  <li
+    className="home-card"
+  >
+    <div
+      className="image-arrow-conatiner"
+    >
+      <img
+        alt="city mapping"
+        src="Asset 1.svg"
+      />
+      <a
+        href="/Tianjin"
+        onClick={[Function]}
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+            fillRule="evenodd"
+          />
+        </svg>
+      </a>
+    </div>
+    <p
+      className="city-name"
+    >
+      Tianjin
+    </p>
+    <p
+      className="city-aqi"
+    >
+      199
+    </p>
+  </li>,
+  <li
+    className="home-card"
+  >
+    <div
+      className="image-arrow-conatiner"
+    >
+      <img
+        alt="city mapping"
+        src="Asset 1.svg"
+      />
+      <a
+        href="/Hangzhou"
+        onClick={[Function]}
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+            fillRule="evenodd"
+          />
+        </svg>
+      </a>
+    </div>
+    <p
+      className="city-name"
+    >
+      Hangzhou
+    </p>
+    <p
+      className="city-aqi"
+    >
+      63
+    </p>
+  </li>,
+  <li
+    className="home-card"
+  >
+    <div
+      className="image-arrow-conatiner"
+    >
+      <img
+        alt="city mapping"
+        src="Asset 1.svg"
+      />
+      <a
+        href="/Shantou"
+        onClick={[Function]}
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+            fillRule="evenodd"
+          />
+        </svg>
+      </a>
+    </div>
+    <p
+      className="city-name"
+    >
+      Shantou
+    </p>
+    <p
+      className="city-aqi"
+    >
+      55
+    </p>
+  </li>,
+  <li
+    className="home-card"
+  >
+    <div
+      className="image-arrow-conatiner"
+    >
+      <img
+        alt="city mapping"
+        src="Asset 1.svg"
+      />
+      <a
+        href="/Changzhou"
+        onClick={[Function]}
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+            fillRule="evenodd"
+          />
+        </svg>
+      </a>
+    </div>
+    <p
+      className="city-name"
+    >
+      Changzhou
+    </p>
+    <p
+      className="city-aqi"
+    >
+      74
+    </p>
+  </li>,
+  <li
+    className="home-card"
+  >
+    <div
+      className="image-arrow-conatiner"
+    >
+      <img
+        alt="city mapping"
+        src="Asset 1.svg"
+      />
+      <a
+        href="/Jinan"
+        onClick={[Function]}
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+            fillRule="evenodd"
+          />
+        </svg>
+      </a>
+    </div>
+    <p
+      className="city-name"
+    >
+      Jinan
+    </p>
+    <p
+      className="city-aqi"
+    >
+      127
+    </p>
+  </li>,
+  <li
+    className="home-card"
+  >
+    <div
+      className="image-arrow-conatiner"
+    >
+      <img
+        alt="city mapping"
+        src="Asset 1.svg"
+      />
+      <a
+        href="/Shenzhen"
+        onClick={[Function]}
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+            fillRule="evenodd"
+          />
+        </svg>
+      </a>
+    </div>
+    <p
+      className="city-name"
+    >
+      Shenzhen
+    </p>
+    <p
+      className="city-aqi"
+    >
+      97
+    </p>
+  </li>,
+  <li
+    className="home-card"
+  >
+    <div
+      className="image-arrow-conatiner"
+    >
+      <img
+        alt="city mapping"
+        src="Asset 1.svg"
+      />
+      <a
+        href="/Dongli"
+        onClick={[Function]}
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+            fillRule="evenodd"
+          />
+        </svg>
+      </a>
+    </div>
+    <p
+      className="city-name"
+    >
+      Dongli
+    </p>
+    <p
+      className="city-aqi"
+    >
+      165
+    </p>
+  </li>,
+]
+`;
+
+exports[`Component Snapshot Test Test City Page Snap 1`] = `
+Array [
+  <nav
+    className="aqi-navbar"
+  >
+    <div>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 512 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M328 112L184 256l144 144"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="48"
+          />
+        </svg>
+      </a>
+    </div>
+    <p>
+      AQI DATA
+    </p>
+  </nav>,
+  <div
+    className="aqi-big-display"
+  >
+    <div>
+      <h2 />
+      <h3 />
+    </div>
+    <img
+      alt="Map of the city"
+      src="Asset 2.svg"
+    />
+  </div>,
+  <div
+    className="night-blue-list"
+  >
+    <p>
+      CITY AIR QUALITY STATS
+    </p>
+  </div>,
+  <ul
+    className="city-header"
+  >
+    <li>
+      <p>
+        CO
+      </p>
+      <p />
+    </li>
+    <li>
+      <p>
+        H
+      </p>
+      <p />
+    </li>
+    <li>
+      <p>
+        NO2
+      </p>
+      <p />
+    </li>
+    <li>
+      <p>
+        O3
+      </p>
+      <p />
+    </li>
+    <li>
+      <p>
+        P
+      </p>
+      <p />
+    </li>
+    <li>
+      <p>
+        PM10
+      </p>
+      <p />
+    </li>
+    <li>
+      <p>
+        PM25
+      </p>
+      <p />
+    </li>
+    <li>
+      <p>
+        SO2
+      </p>
+      <p />
+    </li>
+    <li>
+      <p>
+        T
+      </p>
+      <p />
+    </li>
+    <li>
+      <p>
+        W
+      </p>
+      <p />
+    </li>
+  </ul>,
+  <footer>
+    <p>
+      Original design idea by
+    </p>
+  </footer>,
+]
+`;
+
+exports[`Component Snapshot Test Test Home page snap 1`] = `
+Array [
+  <nav>
+    <p>
+      Highest Polluters
+    </p>
+  </nav>,
+  <div
+    className="china-display"
+  >
+    <img
+      alt="Map of China"
+      src="China.svg"
+    />
+    <h3>
+      CHINA CITIES
+    </h3>
+  </div>,
+  <div
+    className="night-blue-list"
+  >
+    <p>
+      STATS BY CITIES
+    </p>
+  </div>,
+  <ul
+    className="home-container"
+  />,
+  <footer>
+    <p>
+      Original design idea by
+      <a
+        href="https://www.behance.net/sakwadesignstudio"
+      >
+         Nelson Sakwa on Behance.
+      </a>
+    </p>
+  </footer>,
+]
+`;

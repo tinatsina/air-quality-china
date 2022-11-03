@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# China Air Quality Application
 
-## Available Scripts
+> Air quality info site made by using AQI API for cheking the Air quality of surrounding cities. Can be used for forecsting and also as a travel waring toolkit
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- Javascript
+- JSX
+- CSS
+- Markdown
+- React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Video
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Video Link](https://www.loom.com/share/98139a8a2d314c0cb02b92cb232fbeae)
 
-### `npm test`
+## Live Deployment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> The website is built using React and deployed using Netlify
 
-### `npm run build`
+![The image](src/components/img/0001.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[China Air Quality Link](https://illustrious-gnome-9b4dcd.netlify.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Set up a linter for HTML, CSS and JS**
 
-### `npm run eject`
+To get a local copy up and running follow these simple example steps.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone this repository or download the Zip folder:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**``git clone git@github.com:tinatsina/math-magicians-online.git``**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Navigate to the location of the folder in your machine:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**``you@your-Pc-name:~$ cd <folder>``**
 
-## Learn More
+**Git**
+**Node JS (preferably any LTS version) for linters**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+👤 **Tinaye Hamufari Tsinakwadi**
 
-### Code Splitting
+> Aspiring web developer mainly interested in minimal code. Research interests include Database design and IOT.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [GitHub](https://github.com/tinatsina)
+- [Twitter](https://twitter.com/TinayeT)
+- [LinkedIn](https://www.linkedin.com/in/tinayetsina/)
 
-### Analyzing the Bundle Size
+Please feel free to contact us anytime
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Show your support
 
-### Making a Progressive Web App
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgments
 
-### Advanced Configuration
+- Original design idea by [Nelson Sakwa on Behance.](https://www.behance.net/sakwadesignstudio)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- This project is [Mozilla](./LICENSE) licensed.
