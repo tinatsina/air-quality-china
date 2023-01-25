@@ -21,6 +21,8 @@ nav > p {
   line-height: 2em;
   height: 3em;
   text-align: center;
+  font-size: xx-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 footer > p {
